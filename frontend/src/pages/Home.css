@@ -1,0 +1,34 @@
+/* frontend/src/assets/styles/Home.css */
+
+.hero {
+  background-color: #f0f4f8;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.courses-preview {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.courses-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}

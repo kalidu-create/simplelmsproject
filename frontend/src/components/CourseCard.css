@@ -1,0 +1,37 @@
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+}
+
+.course-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.enroll-btn {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enroll-btn:hover {
+  background-color: #155ab6;
+}
